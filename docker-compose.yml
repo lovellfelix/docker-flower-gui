@@ -11,7 +11,7 @@ services:
       - rabbitmq
     restart: 'no'
   rabbitmq:
-    image: rabbitmq:3.7-management
+    image: rabbitmq:3.8-management
     ports:
       - "5672:5672"
       - "15672:15672"
