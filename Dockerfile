@@ -1,4 +1,4 @@
-FROM python:3.7.8-alpine
+FROM python:3.9.5-alpine
 
 RUN pip install flower==0.9.5
 
