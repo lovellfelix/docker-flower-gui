@@ -1,4 +1,4 @@
-FROM python:3.9.5-alpine
+FROM python:3.9.6-alpine
 
 RUN pip install flower==0.9.5 redis==3.2.0
 
